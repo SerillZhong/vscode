@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>块级元素与行内元素</title>
+</head>
+<body>
+    <!--块级元素 特点就是独占一行 -->
+    <!-- <marquee >尚硅谷</marquee>
+    <marquee >尚硅谷</marquee>
+    <h1>尚硅谷</h1>
+    <p>尚硅谷</p>
+    <div>尚硅谷</div>
+    <div>尚硅谷</div>
+    <div>尚硅谷</div> -->
+    <!--行内元素 特点就是不独占一行-->
+    <!-- <input type="text" >
+    <input type="text" >
+    <span class="span">span</span>
+    <span class="span">span</span>
+    <span class="span">span</span>
+    <span class="span">span</span>
+    <span class="span">span</span>
+    <span class="span">span</span>
+    <span class="span">span</span>
+    <span class="span">span</span>
+    <span class="span">span</span>
+    <span class="span">span</span>
+    <span class="span">span</span> -->
+    <!--规则1：块级元素中能写：行内元素、块级元素(几乎什么都能写)-->
+    <!-- <div>
+        <span>span1</span>
+        <input type="text" > 
+          <div>
+            <span>span2</span>
+            <input type="text" > 
+              
+          </div>
+
+    </div> -->
+    <!--规则2：行内元素只能写：行内元素,但不能写块级元素-->
+    <!-- <span>
+        <span>span1</span>
+        <input type="text" > 
+        <span>span2</span>    
+    
+    </span> -->
+    <!--特殊规则：h1-h6不能互相嵌套-->
+    <!-- <h1>
+        <h2>不能嵌套</h2>
+    </h1> -->
+    <!--特殊规则：p标签中不能写块级元素-->
+    <!-- <p>
+        <h1>
+            <h2>不能写块级元素</h2>
+        </h1>
+        <div></div>        
+    </p> -->
+
+
+</body>
+</html>
